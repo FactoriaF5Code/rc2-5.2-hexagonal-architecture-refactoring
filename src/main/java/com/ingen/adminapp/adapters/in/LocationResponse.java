@@ -1,6 +1,6 @@
-package com.ingen.adminapp.controllers;
+package com.ingen.adminapp.adapters.in;
 
-import com.ingen.adminapp.apis.Location;
+import com.ingen.adminapp.adapters.out.Location;
 
 public class LocationResponse {
 

@@ -1,4 +1,4 @@
-package com.ingen.adminapp.database;
+package com.ingen.adminapp.adapters.out;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

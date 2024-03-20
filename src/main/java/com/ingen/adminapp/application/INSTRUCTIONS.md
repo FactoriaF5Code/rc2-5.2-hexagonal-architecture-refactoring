@@ -1,0 +1,1 @@
+The application package must contain the Use Cases and their implementation.

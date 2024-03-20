@@ -1,4 +1,4 @@
-package com.ingen.adminapp.database;
+package com.ingen.adminapp.adapters.out;
 
 import jakarta.persistence.*;
 

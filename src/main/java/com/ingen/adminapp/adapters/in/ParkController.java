@@ -1,11 +1,11 @@
-package com.ingen.adminapp.controllers;
+package com.ingen.adminapp.adapters.in;
 
-import com.ingen.adminapp.apis.CarLocationApi;
-import com.ingen.adminapp.apis.CarRemoteApi;
-import com.ingen.adminapp.database.CageRepository;
-import com.ingen.adminapp.database.CageStatus;
-import com.ingen.adminapp.database.SpecimenRepository;
-import com.ingen.adminapp.database.VehicleRepository;
+import com.ingen.adminapp.adapters.out.CarLocationApi;
+import com.ingen.adminapp.adapters.out.CarRemoteApi;
+import com.ingen.adminapp.adapters.out.CageRepository;
+import com.ingen.adminapp.adapters.out.CageStatus;
+import com.ingen.adminapp.adapters.out.SpecimenRepository;
+import com.ingen.adminapp.adapters.out.VehicleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

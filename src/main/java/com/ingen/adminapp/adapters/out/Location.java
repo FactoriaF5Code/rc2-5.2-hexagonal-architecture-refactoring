@@ -1,4 +1,4 @@
-package com.ingen.adminapp.apis;
+package com.ingen.adminapp.adapters.out;
 
 public class Location {
     private Double lat;
