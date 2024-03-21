@@ -1,4 +1,4 @@
-package com.ingen.adminapp.adapters.in;
+package com.ingen.adminapp.adapters.in.rest;
 
 import com.ingen.adminapp.adapters.out.Location;
 

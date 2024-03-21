@@ -1,4 +1,4 @@
-package com.ingen.adminapp.adapters.in;
+package com.ingen.adminapp.adapters.in.rest;
 
 import com.ingen.adminapp.adapters.out.CarLocationApi;
 import com.ingen.adminapp.adapters.out.CarRemoteApi;
@@ -107,13 +107,5 @@ public class ParkController {
                                     ));
                 })
                 .orElseGet( () -> ResponseEntity.notFound().build());
-    }
-
-    @GetMapping("/admin/command")
-    public String runCommand(@RequestParam(name="command", required = true)String command) {
-        if ("accessSecurity".equals(command)) {
-            return "Ah ah ah, you didn't say the magic word\n".repeat(100);
-        }
-        return "ACCESS DENIED";
     }
 }
